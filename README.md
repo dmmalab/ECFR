@@ -65,4 +65,4 @@ bash run_grid_search.sh
 Note: This shell script sequentially iterates through the predefined learning rates, passing them via the --lr argument to main_adaptation.py. The best-performing hyperparameter (Oracle selection) determines the final reported metrics.
 
 ### 🔍 Core Mechanism Reference
-Reviewers looking to verify the mathematical implementation of our Quadrant-wise Flow Regulation should refer directly to methods/ecfr.py, specifically the forward_and_adapt function where the flow rectification strategy is executed based on dynamic spatial partitioning. The dynamic thresholding logic can be strictly verified in models/memory_bank.py.
+Reviewers looking to verify the mathematical implementation of our quadrant-wise flow rectification should refer directly to methods/ecfr.py, specifically the forward_and_adapt function where the flow rectification strategy is executed based on dynamic spatial partitioning. The dynamic thresholding logic can be strictly verified in models/memory_bank.py.
